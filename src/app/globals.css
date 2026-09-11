@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --color-navy: #06304f;
+  --color-navy-dark: #041f34;
+  --color-blue: #1d6fa5;
+  --color-gold: #f39200;
+  --color-gold-dark: #d67e00;
+  --color-graphite: #262b30;
+  --color-gray-50: #f6f8fa;
+  --color-gray-100: #eef1f4;
+  --color-gray-200: #dfe4e9;
+
+  --background: #ffffff;
+  --foreground: var(--color-graphite);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--color-navy);
+  --color-navy-dark: var(--color-navy-dark);
+  --color-blue: var(--color-blue);
+  --color-gold: var(--color-gold);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-graphite: var(--color-graphite);
+  --color-gray-50: var(--color-gray-50);
+  --color-gray-100: var(--color-gray-100);
+  --color-gray-200: var(--color-gray-200);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out both;
+}
+
+.balance {
+  text-wrap: balance;
+}

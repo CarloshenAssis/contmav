@@ -74,11 +74,12 @@ export function Hero() {
           <div className="relative mx-auto h-[420px] w-full max-w-md overflow-hidden rounded-2xl sm:h-[500px] lg:h-full lg:max-w-none lg:rounded-none">
             <Image
               src="/images/sentdonapoltrona.png"
-              alt="Profissional da ContMav Contabilidade"
+              alt="Profissional da ContMav Contabilidade, contador em São José dos Campos"
               fill
               priority
+              quality={95}
               sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover object-top"
+              className="object-cover object-[center_15%]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/40 via-transparent to-transparent lg:hidden" />
           </div>

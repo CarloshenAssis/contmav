@@ -34,12 +34,13 @@ export function Header() {
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <Image
-            src="/images/logocontmav.png"
+            src="/images/logocontmav-transparent.png"
             alt="ContMav Contabilidade"
-            width={40}
-            height={38}
+            width={144}
+            height={137}
+            quality={100}
             priority
-            className="h-9 w-auto sm:h-10"
+            className="h-11 w-auto sm:h-12"
           />
           <span className="flex flex-col leading-none">
             <span className="text-lg font-bold tracking-tight text-navy-dark">

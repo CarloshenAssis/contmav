@@ -34,11 +34,12 @@ export function Audience() {
 
           <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl lg:max-w-md">
             <Image
-              src="/images/empenamesa.png"
-              alt="Profissional da ContMav Contabilidade"
+              src="/images/sentad0namesinha.png"
+              alt="Profissional da ContMav Contabilidade em atendimento"
               fill
+              quality={95}
               sizes="(min-width: 1024px) 40vw, 90vw"
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
         </div>

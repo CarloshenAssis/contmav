@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: [{ url: "/images/sentdonapoltrona.png" }],
   },
   icons: {
-    icon: "/images/logocontmav.png",
+    icon: "/images/logocontmav-transparent.png",
   },
 };
 

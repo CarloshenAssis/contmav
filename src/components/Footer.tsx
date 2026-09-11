@@ -10,11 +10,12 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2.5">
               <Image
-                src="/images/logocontmav.png"
+                src="/images/logocontmav-transparent.png"
                 alt="ContMav Contabilidade"
-                width={36}
-                height={34}
-                className="h-8 w-auto"
+                width={144}
+                height={137}
+                quality={100}
+                className="h-10 w-auto"
               />
               <span className="text-base font-bold text-white">CONTMAV</span>
             </div>

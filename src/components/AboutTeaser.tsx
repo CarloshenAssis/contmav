@@ -10,11 +10,12 @@ export function AboutTeaser() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl order-2 lg:order-1 lg:max-w-none">
             <Image
-              src="/images/sentad0namesinha.png"
-              alt="Profissional da ContMav Contabilidade em atendimento"
+              src="/images/empenamesa.png"
+              alt="Profissional da ContMav Contabilidade"
               fill
+              quality={95}
               sizes="(min-width: 1024px) 45vw, 90vw"
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
 
